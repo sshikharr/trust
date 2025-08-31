@@ -10,7 +10,7 @@ function Nav() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <div className="w-24 bg-[#D65A31] rounded-full flex items-center justify-center">
-              <img src="./src/assets/logo.jpeg" alt="logo" className="rounded-full object-contain" />
+              <img src="./assets/logo.jpeg" alt="logo" className="rounded-full object-contain" />
             </div>
             <div>
               <div className="font-bold text-xl text-[#D65A31]">सेवा साहसी ट्रस्ट</div>
