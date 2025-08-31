@@ -317,7 +317,7 @@ function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-[#D65A31] rounded-full flex items-center justify-center">
-              <img src={logo} alt="logo" className="h-12 w-12 rounded-full object-contain" />
+              <img src="https://res.cloudinary.com/dlzkqms1c/image/upload/v1756626203/WhatsApp_Image_2025-08-26_at_9.08.03_PM_leonwc.jpg" alt="logo" className="h-12 w-12 rounded-full object-contain" />
               </div>
               <span className="font-bold text-lg">सेवा साहसी ट्रस्ट</span>
             </div>
