@@ -18,6 +18,11 @@ import img14 from "./assets/img14.jpeg";
 import img15 from "./assets/img15.jpeg";
 import img16 from "./assets/img16.jpeg";
 import img17 from "./assets/img17.jpeg";
+import amit from "./assets/amit.jpg";
+import jitendra from "./assets/jitendra.jpeg";
+import pawan from "./assets/pawan.jpeg";
+import naman from "./assets/naman.jpg";
+import shivam from "./assets/shivam.jpeg";
 
 // Import Lucide React icons
 import {
@@ -240,16 +245,16 @@ function About() {
   );
 }
 
-// Data for post holders, organized for easy mapping
+// Data for post holders, now with images instead of icons
 const postHolders = [
-  { post: "अध्यक्ष", name: "Amit Singh", icon: <Award size={60} /> },
-  { post: "उपाध्यक्ष", name: "Jitendra Kumar Singh", icon: <UserRound size={60} /> },
-  { post: "सचिव", name: "Pawan Mishra", icon: <UserRound size={60} /> },
-  { post: "विधि प्रकोष्ठ प्रभारी", name: "Naman Kumar Singh", icon: <UserRound size={60} /> },
-  { post: "मीडिया प्रभारी", name: "Shivam Maurya", icon: <UserRound size={60} /> },
+  { post: "अध्यक्ष", name: "अमित सिंह", img: amit },
+  { post: "उपाध्यक्ष", name: "जितेंद्र कुमार सिंह", img: jitendra },
+  { post: "सचिव", name: "पवन मिश्र", img: pawan },
+  { post: "विधि प्रकोष्ठ प्रभारी", name: "नमन कुमार सिंह", img: naman },
+  { post: "मीडिया प्रभारी", name: "शिवम मौर्य", img: shivam },
 ];
 
-// New component for post holders
+// New component for post holders (now shows images)
 function PostHoldersSection() {
   return (
     <section className="py-16 bg-[#FBF6EE]">
@@ -261,8 +266,8 @@ function PostHoldersSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {postHolders.map((holder, index) => (
             <div key={index} className="flex flex-col items-center text-center py-4 bg-white rounded-lg shadow-sm border border-gray-200 w-full">
-              <div className="w-32 h-32 rounded-full overflow-hidden bg-[#D65A31] flex items-center justify-center mb-4 text-white">
-                {holder.icon}
+              <div className="w-32 h-32 rounded-full overflow-hidden bg-[#D65A31] flex items-center justify-center mb-4">
+                <img src={holder.img} alt={holder.name} />
               </div>
               <h3 className="font-bold text-lg text-gray-800">{holder.name}</h3>
               <p className="text-sm text-[#D65A31] font-semibold">{holder.post}</p>
