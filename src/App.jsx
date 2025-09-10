@@ -299,7 +299,7 @@ function Membership() {
             शुरू करने के लिए हमारा ऑनलाइन सदस्यता फ़ॉर्म भरें। यह प्रक्रिया सरल है और इसमें बस कुछ ही मिनट लगते हैं।
           </p>
           <a
-            href="https://forms.gle/PLACEHOLDER" // Replace with your Google Form link
+            href="https://docs.google.com/forms/d/e/1FAIpQLScB8RPphOUQ41hS629Fbxo3QlNt9LMyottYc5HA1KfRL8TOCA/viewform" // Replace with your Google Form link
             target="_blank"
             rel="noreferrer"
             className="inline-block bg-[#D65A31] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#B54A26] transition-colors"
