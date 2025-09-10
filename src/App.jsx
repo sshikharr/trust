@@ -600,17 +600,17 @@ export default function App() {
         <Footer />
 
         {/* Floating Social Buttons */}
-        <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+<div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
           {/* YouTube */}
           <a
             href="https://www.youtube.com/@SevaSahasiTrust"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-red-600 text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition"
+            className="bg-red-600 text-white p-4 rounded-full shadow-lg hover:bg-red-700 transition"
             title="YouTube"
           >
             <svg
-              className="w-6 h-6"
+              className="w-12 h-12"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -628,11 +628,11 @@ export default function App() {
             href="https://www.facebook.com/sevasahasitrust"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition"
+            className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition"
             title="Facebook"
           >
             <svg
-              className="w-6 h-6"
+              className="w-12 h-12"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
